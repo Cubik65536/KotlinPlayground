@@ -11,7 +11,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    // CompareVersion.kt
+    implementation("io.github.g00fy2:versioncompare:1.5.0")
 }
 
 tasks.test {
