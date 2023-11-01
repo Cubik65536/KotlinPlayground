@@ -16,7 +16,7 @@ dependencies {
     // Networking and JSON parsing
     implementation("io.ktor:ktor-client-core:$ktorVersion")
     implementation("io.ktor:ktor-client-cio:$ktorVersion")
-    implementation("com.beust:klaxon:5.6")
+    implementation("com.beust:klaxon:5.5")
 
     // CompareVersion.kt
     implementation("io.github.g00fy2:versioncompare:1.5.0")
