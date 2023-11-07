@@ -15,7 +15,8 @@ repositories {
 dependencies {
     // Networking and JSON parsing
     implementation("io.ktor:ktor-client-core:$ktorVersion")
-    implementation("io.ktor:ktor-client-cio:$ktorVersion")
+//    implementation("io.ktor:ktor-client-cio:$ktorVersion")
+    implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
     implementation("com.beust:klaxon:5.5")
 
     // CompareVersion.kt
